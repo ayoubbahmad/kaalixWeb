@@ -1,0 +1,98 @@
+{
+  "landing": [
+    {
+      "img": "/images/header/1.jpg",
+      "alt": "lorem epsom dolor",
+      "title": "Lorem epsum",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore non modi cum tenetur, officia sed sit dignissimos doloribus, nostrum iste voluptate inventore culpa amet ut numquam, eaque id consectetur laboriosam odit officiis nobis sunt at reiciendis. Mollitia quis exercitationem autem."
+    },
+    {
+      "img": "/images/header/2.jpg",
+      "alt": "lorem epsom dolor",
+      "title": "Lorem epsum",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore non modi cum tenetur, officia sed sit dignissimos doloribus, nostrum iste voluptate inventore culpa amet ut numquam, eaque id consectetur laboriosam odit officiis nobis sunt at reiciendis. Mollitia quis exercitationem autem."
+    },
+    {
+      "img": "/images/header/3.jpg",
+      "alt": "lorem epsom",
+      "title": "Lorem epsum",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore non modi cum tenetur, officia sed sit dignissimos doloribus, nostrum iste voluptate inventore culpa amet ut numquam, eaque id consectetur laboriosam odit officiis nobis sunt at reiciendis. Mollitia quis exercitationem autem."
+    }
+  ],
+  "services": [
+    {
+      "icon": "fas fa-chart-line",
+      "title": "Sell your home",
+      "description": "Lorem ipsum dolor, sit amet tes f z a a."
+    },
+    {
+      "icon": "fas fa-home",
+      "title": "Get the best service",
+      "description": "Lorem ipsum, sit amet tes f z a a."
+    },
+    {
+      "icon": "fas fa-dollar-sign",
+      "title": "Earn more",
+      "description": "Lorem ipsum dolor,  met sit amet tes f z a a."
+    },
+    {
+      "icon": "fa fa-balance-scale",
+      "title": "Trusted Agency",
+      "description": "Lorem ipsum dolor,  met sit amet tes f z a a."
+    }
+  ],
+  "rooms": [
+    {
+      "img": "/images/room/21.jpg",
+      "alt": "cccccc",
+      "room": 4,
+      "beds": 2,
+      "baths": 2,
+      "area": 55
+    },
+    {
+      "img": "/images/room/1.jpg",
+      "alt": "cccccc",
+      "room": 4,
+      "beds": 2,
+      "baths": 2,
+      "area": 55
+    },
+    {
+      "img": "/images/room/22.jpg",
+      "alt": "cccccc",
+      "room": 4,
+      "beds": 2,
+      "baths": 2,
+      "area": 55
+    },
+    {
+      "img": "/images/room/2.jpg",
+      "alt": "cccccc",
+      "room": 4,
+      "beds": 2,
+      "baths": 2,
+      "area": 55
+    }
+  ],
+  "footer": [
+    {
+      "image": "/images/footer/1.jpg",
+      "alt": "vcvcvcvcvc",
+      "name": "Villa On Tokyo Ave",
+      "price": "$2220"
+    },
+    {
+      "image": "/images/footer/1.jpg",
+      "alt": "vcvcvcvcvc",
+      "name": "Villa On Tokyo Ave",
+      "price": "$2220"
+    },
+    {
+      "image": "/images/footer/1.jpg",
+      "alt": "vcvcvcvcvc",
+      "name": "Villa On Tokyo Ave",
+      "price": "$2220"
+    }
+  ]
+}
