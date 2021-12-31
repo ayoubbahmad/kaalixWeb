@@ -1,0 +1,127 @@
+import styled, { keyframes, css } from "styled-components";
+
+const Anim = keyframes`
+from{
+padding-left: 400px
+}
+to{
+  padding-left: 0px
+}`;
+const Anim2 = keyframes`
+from{
+transform: translateX(0)
+}
+to{
+  transform: translateX(430px)
+}`;
+
+export const Main = styled.div`
+  background-color: ${(props) => props.back};
+  position: relative;
+`;
+export const Container = styled.div`
+  h1 {
+    font-weight: 900;
+    font-size: 32px;
+    padding: 2.5rem 0 50px;
+    color: #1b1b1b;
+    text-align: center;
+  }
+`;
+export const Options = styled.div`
+  width: 200%;
+  left: -430px;
+  position: relative;
+  display: flex;
+  ${(props) =>
+    props.animNext &&
+    css`
+      animation: ${Anim} 0.8s;
+    `};
+  ${(props) =>
+    props.animPrev &&
+    css`
+      animation: ${Anim2} 0.8s forwards;
+    `};
+`;
+export const Option = styled.div`
+  transition: all 0.4s;
+  padding: 0 15px;
+  cursor: pointer;
+  &:hover img {
+    transform: scale(1.05);
+  }
+  div:first-child {
+    overflow: hidden;
+    border-radius: 20px;
+    img {
+      transition: all 0.4s;
+    }
+  }
+
+  div:nth-of-type(2) {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px 15px;
+    margin: -15px 5px 0;
+    position: relative;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.2);
+    h2 {
+      color: #333;
+    }
+    p {
+      color: #606060;
+      font-size: 16px;
+      margin-top: 15px;
+      font-family: tahoma, sans-serif;
+      letter-spacing: 1px;
+    }
+  }
+`;
+export const Next = styled.button`
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  position: absolute;
+  right: -10px;
+  top: 305px;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.2);
+  color: #a5b7d2;
+  cursor: pointer;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    background-color: #a5b7d2;
+    color: #fff;
+  }
+`;
+export const Prev = styled.button`
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  position: absolute;
+  left: -5px;
+  top: 305px;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  font-size: 25px;
+  box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.2);
+  color: #a5b7d2;
+  cursor: pointer;
+  line-height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    background-color: #a5b7d2;
+    color: #fff;
+  }
+`;

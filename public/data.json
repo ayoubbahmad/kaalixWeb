@@ -1,98 +1,125 @@
 {
   "landing": [
+    { "img": "/image/landing/1.jpg", "desc": "Restaurants" },
+    { "img": "/image/landing/2.jpg", "desc": "Mes courses et Marjan" },
+    { "img": "/image/landing/3.jpg", "desc": "Boulangerie Patisserie" },
+    { "img": "/image/landing/4.jpg", "desc": "Boutiques" },
+    { "img": "/image/landing/6.jpg", "desc": "Choubik Loubik" },
+    { "img": "/image/landing/5.jpg", "desc": "Coursier" }
+  ],
+  "suggestions": [
     {
-      "img": "/images/header/1.jpg",
-      "alt": "lorem epsom dolor",
-      "title": "Lorem epsum",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore non modi cum tenetur, officia sed sit dignissimos doloribus, nostrum iste voluptate inventore culpa amet ut numquam, eaque id consectetur laboriosam odit officiis nobis sunt at reiciendis. Mollitia quis exercitationem autem."
+      "img": "/image/suggestion/1.png",
+      "title": "Lorem Epsum",
+      "desc": " Faites vos courses dans le nouveau store Votre Panier"
     },
     {
-      "img": "/images/header/2.jpg",
-      "alt": "lorem epsom dolor",
-      "title": "Lorem epsum",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore non modi cum tenetur, officia sed sit dignissimos doloribus, nostrum iste voluptate inventore culpa amet ut numquam, eaque id consectetur laboriosam odit officiis nobis sunt at reiciendis. Mollitia quis exercitationem autem."
+      "img": "/image/suggestion/2.png",
+      "title": "Lorem Epsum",
+      "desc": " Faites vos courses dans le nouveau store Votre Panier"
     },
     {
-      "img": "/images/header/3.jpg",
-      "alt": "lorem epsom",
-      "title": "Lorem epsum",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore non modi cum tenetur, officia sed sit dignissimos doloribus, nostrum iste voluptate inventore culpa amet ut numquam, eaque id consectetur laboriosam odit officiis nobis sunt at reiciendis. Mollitia quis exercitationem autem."
+      "img": "/image/suggestion/3.png",
+      "title": "Lorem Epsum",
+      "desc": " Faites vos courses dans le nouveau store Votre Panier"
+    },
+    {
+      "img": "/image/suggestion/4.png",
+      "title": "Lorem Epsum",
+      "desc": " Faites vos courses dans le nouveau store Votre Panier"
+    },
+    {
+      "img": "/image/suggestion/5.png",
+      "title": "Lorem Epsum",
+      "desc": " Faites vos courses dans le nouveau store Votre Panier"
+    },
+    {
+      "img": "/image/suggestion/6.png",
+      "title": "Lorem Epsum",
+      "desc": " Faites vos courses dans le nouveau store Votre Panier"
+    }
+  ],
+  "promotions": [
+    {
+      "img": "/image/promotion/1.png",
+      "title": "Lorem Epsum",
+      "desc": " Faites vos courses dans le nouveau store"
+    },
+    {
+      "img": "/image/promotion/2.png",
+      "title": "Lorem Epsum",
+      "desc": " Faites vos courses dans le nouveau store "
+    },
+    {
+      "img": "/image/promotion/3.png",
+      "title": "Lorem Epsum",
+      "desc": " Faites vos courses dans le nouveau store "
+    },
+    {
+      "img": "/image/promotion/4.png",
+      "title": "Lorem Epsum",
+      "desc": " Faites vos courses dans le nouveau store"
+    },
+    {
+      "img": "/image/promotion/5.png",
+      "title": "Lorem Epsum",
+      "desc": " Faites vos courses dans le nouveau store "
+    },
+    {
+      "img": "/image/promotion/6.png",
+      "title": "Lorem Epsum",
+      "desc": " Faites vos courses dans le nouveau store "
     }
   ],
   "services": [
     {
-      "icon": "fas fa-chart-line",
-      "title": "Sell your home",
-      "description": "Lorem ipsum dolor, sit amet tes f z a a."
+      "img": "/image/services/1.png",
+      "title": "Vous choisissez",
+      "desc": "Sélectionnez les meilleurs produits dans votre ville, restaurants, magasins, supermarchés."
     },
     {
-      "icon": "fas fa-home",
-      "title": "Get the best service",
-      "description": "Lorem ipsum, sit amet tes f z a a."
+      "img": "/image/services/2.png",
+      "title": "Nous livrons",
+      "desc": "Nos livreurs reçoivent votre demande et passent la récupérer immédiatement chez nos partenaires."
     },
     {
-      "icon": "fas fa-dollar-sign",
-      "title": "Earn more",
-      "description": "Lorem ipsum dolor,  met sit amet tes f z a a."
-    },
-    {
-      "icon": "fa fa-balance-scale",
-      "title": "Trusted Agency",
-      "description": "Lorem ipsum dolor,  met sit amet tes f z a a."
+      "img": "/image/services/3.png",
+      "title": "Chez vous",
+      "desc": "Depuis votre canapé, vous pouvez suivre l'avancement de vos commandes jusqu'à la livraison."
     }
   ],
-  "rooms": [
+  "servicesTwo": [
     {
-      "img": "/images/room/21.jpg",
-      "alt": "cccccc",
-      "room": 4,
-      "beds": 2,
-      "baths": 2,
-      "area": 55
+      "img": "/image/hiring/liv.jpg",
+      "title": "Coursiers",
+      "desc": "Gagner de l'argent en tant que coursier"
     },
     {
-      "img": "/images/room/1.jpg",
-      "alt": "cccccc",
-      "room": 4,
-      "beds": 2,
-      "baths": 2,
-      "area": 55
+      "img": "/image/hiring/che.jpg",
+      "title": "Commerces partenaires",
+      "desc": "Inscrivez-vous en tant que un partenaire de restauration"
     },
     {
-      "img": "/images/room/22.jpg",
-      "alt": "cccccc",
-      "room": 4,
-      "beds": 2,
-      "baths": 2,
-      "area": 55
-    },
-    {
-      "img": "/images/room/2.jpg",
-      "alt": "cccccc",
-      "room": 4,
-      "beds": 2,
-      "baths": 2,
-      "area": 55
+      "img": "/image/hiring/tog.jpg",
+      "title": "Emploi",
+      "desc": "Des défis à la hauteur de votre talent"
     }
   ],
   "footer": [
     {
-      "image": "/images/footer/1.jpg",
-      "alt": "vcvcvcvcvc",
-      "name": "Villa On Tokyo Ave",
-      "price": "$2220"
+      "img": "fas fa-globe-africa",
+      "title": "411 Casablanca, Maarif, Maroc",
+      "desc": "Notre adresse"
     },
     {
-      "image": "/images/footer/1.jpg",
-      "alt": "vcvcvcvcvc",
-      "name": "Villa On Tokyo Ave",
-      "price": "$2220"
+      "img": "far fa-paper-plane",
+      "title": "contact@kaalix.ma",
+      "desc": "Notre Email"
     },
     {
-      "image": "/images/footer/1.jpg",
-      "alt": "vcvcvcvcvc",
-      "name": "Villa On Tokyo Ave",
-      "price": "$2220"
+      "img": "fas fa-phone-volume",
+      "title": "+2126666666666",
+      "desc": "Service client"
     }
   ]
 }

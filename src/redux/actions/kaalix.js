@@ -1,18 +1,22 @@
-import Types from "../types";
+import Types from "../types/Types";
 import axios from "axios";
 
-export const getData = async () => (dispatch, getState) => {
-  const data = await axios("/data.json").then((res) => res.data);
-  const err = data.catch((error) => error.message);
+export const getData = () => (dispatch, getState) => {
   dispatch({
-    type: GET_DATA_REQUEST,
+    type: Types.GET_DATA_REQUEST,
   });
-  dispatch({
-    type: GET_DATA_SUCCESS,
-    payload: data,
-  });
-  dispatch({
-    type: GET_DATA_FAILURE,
-    payload: err,
-  });
+  axios
+    .get("/data.json")
+    .then((res) => {
+      dispatch({
+        type: Types.GET_DATA_SUCCESS,
+        payload: res.data,
+      });
+    })
+    .catch((error) =>
+      dispatch({
+        type: Types.GET_DATA_FAILURE,
+        payload: error.message,
+      })
+    );
 };
